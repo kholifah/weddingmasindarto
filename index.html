@@ -6,25 +6,12 @@
 	<head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Wedding &mdash; 100% Free Fully Responsive HTML5 Template by FREEHTML5.co</title>
+	<title>The Wedding Indarto &amp; Rohma</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="Free HTML5 Template by FREEHTML5.CO" />
-	<meta name="keywords" content="free html5, free template, free bootstrap, html5, css3, mobile first, responsive" />
-	<meta name="author" content="FREEHTML5.CO" />
+	<meta name="description" content="The Wedding Indarto &amp; Rohma" />
+	<meta name="keywords" content="The Wedding Indarto &amp; Rohma" />
+	<meta name="author" content="kholifah" />
 
-  <!-- 
-	//////////////////////////////////////////////////////
-
-	FREE HTML5 TEMPLATE 
-	DESIGNED & DEVELOPED by FREEHTML5.CO
-		
-	Website: 		http://freehtml5.co/
-	Email: 			info@freehtml5.co
-	Twitter: 		http://twitter.com/fh5co
-	Facebook: 		https://www.facebook.com/fh5co
-
-	//////////////////////////////////////////////////////
-	 -->
 
   	<!-- Facebook and Twitter integration -->
 	<meta property="og:title" content=""/>
@@ -57,6 +44,13 @@
 	<!-- Theme style  -->
 	<link rel="stylesheet" href="css/style.css">
 
+	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css" integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
+	crossorigin="" />
+
+	<!-- Make sure you put this AFTER Leaflet's CSS -->
+	<script src="https://unpkg.com/leaflet@1.3.4/dist/leaflet.js" integrity="sha512-nMMmRyTVoLYqjP9hrbed9S+FzjZHW5gY1TWCHA5ckwXZBadntCNs8kEqAWdrb9O7rxbCaA4lKTIWjDXZxflOcA=="
+		crossorigin=""></script>
+
 	<!-- Modernizr JS -->
 	<script src="js/modernizr-2.6.2.min.js"></script>
 	<!-- FOR IE9 below -->
@@ -74,31 +68,13 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-xs-2">
-					<div id="fh5co-logo"><a href="index.html">Wedding<strong>.</strong></a></div>
+					<div id="fh5co-logo"><a href="index.html">The Wedding<strong>.</strong></a></div>
 				</div>
 				<div class="col-xs-10 text-right menu-1">
 					<ul>
-						<li class="active"><a href="index.html">Home</a></li>
-						<li><a href="about.html">Story</a></li>
-						<li class="has-dropdown">
-							<a href="services.html">Services</a>
-							<ul class="dropdown">
-								<li><a href="#">Web Design</a></li>
-								<li><a href="#">eCommerce</a></li>
-								<li><a href="#">Branding</a></li>
-								<li><a href="#">API</a></li>
-							</ul>
-						</li>
-						<li class="has-dropdown">
-							<a href="gallery.html">Gallery</a>
-							<ul class="dropdown">
-								<li><a href="#">HTML5</a></li>
-								<li><a href="#">CSS3</a></li>
-								<li><a href="#">Sass</a></li>
-								<li><a href="#">jQuery</a></li>
-							</ul>
-						</li>
-						<li><a href="contact.html">Contact</a></li>
+						<li class="active"><a href="#fh5co-header">Indarto &amp; Rohma</a></li>
+						<li><a href="#fh5co-event">Akad Nikah &amp; Resepsi</a></li>
+						<li><a href="about.html">Tempat Ngunduh Mantu</a></li>
 					</ul>
 				</div>
 			</div>
@@ -106,16 +82,26 @@
 		</div>
 	</nav>
 
-	<header id="fh5co-header" class="fh5co-cover" role="banner" style="background-image:url(images/img_bg_2.jpg);" data-stellar-background-ratio="0.5">
+	<header id="fh5co-header" class="fh5co-cover" role="banner" style="background-image:url(images/herobackground.jpg);" data-stellar-background-ratio="0.5">
 		<div class="overlay"></div>
 		<div class="container">
 			<div class="row">
 				<div class="col-md-8 col-md-offset-2 text-center">
 					<div class="display-t">
 						<div class="display-tc animate-box" data-animate-effect="fadeIn">
-							<h1>Joefrey &amp; Sheila</h1>
+							<h1>Indarto &amp; Rohma</h1>
 							<h2>We Are Getting Married</h2>
-							<div class="simply-countdown simply-countdown-one"></div>
+							<!-- <div class="simply-countdown simply-countdown-one"></div> -->
+							<span class="ayat">
+								وَمِنْ آيَاتِهِ أَنْ خَلَقَ لَكُمْ مِنْ أَنْفُسِكُمْ أَزْوَاجًا لِتَسْكُنُوا إِلَيْهَا وَجَعَلَ بَيْنَكُمْ مَوَدَّةً وَرَحْمَةً ۚ إِنَّ فِي ذَٰلِكَ لَآيَاتٍ لِقَوْمٍ يَتَفَكَّرُونَ
+							</span>
+							<br>
+							<small class="tarjim">
+									Dan di antara tanda-tanda kekuasaan-Nya ialah Dia menciptakan untukmu isteri-isteri dari jenismu sendiri, 
+									supaya kamu cenderung dan merasa tenteram kepadanya, dan dijadikan-Nya diantaramu rasa kasih dan sayang. 
+									Sesungguhnya pada yang demikian itu benar-benar terdapat tanda-tanda bagi kaum yang berfikir. [QS. Ar Rum 30:21]
+							</small>
+							<br><br>
 							<p><a href="#" class="btn btn-default btn-sm">Save the date</a></p>
 						</div>
 					</div>
@@ -128,9 +114,11 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
-					<h2>Hello!</h2>
-					<h3>November 28th, 2016 New York, USA</h3>
-					<p>We invited you to celebrate our wedding</p>
+					<h2>Bismillah</h2>
+					<h3>18 Maret, 2019 Kab. Magetan, Jawa Timur</h3>
+					<small>Maha Suci ALLAH SWT 
+							Yang telah menciptakan makhluk – Nya berpasang – pasangan.
+							Ya Allah, Perkenankanlah kami merangkai kasih sayang yang Kau ciptakan diantara kami :</small>
 				</div>
 			</div>
 			<div class="couple-wrap animate-box">
@@ -139,8 +127,10 @@
 						<img src="images/groom.jpg" alt="groom" class="img-responsive">
 					</div>
 					<div class="desc-groom">
-						<h3>Joefrey Mahusay</h3>
-						<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove</p>
+						<h3>Rohma Setiani</h3>
+						<p>Putri Bapak Bingat dan Ibu Umi Kasanah 
+								Ds. Sampung, Sidorejo
+								Kab. Magetan – Jawa Timur</p>
 					</div>
 				</div>
 				<p class="heart text-center"><i class="icon-heart2"></i></p>
@@ -149,21 +139,36 @@
 						<img src="images/bride.jpg" alt="groom" class="img-responsive">
 					</div>
 					<div class="desc-bride">
-						<h3>Sheila Mahusay</h3>
-						<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove</p>
+						<h3>Indarto</h3>
+						<p>Putra Bapak Kairin dan Ibu Suparmi
+								Ds. Tambakrejo Kab. Magetan – Jawa Timur</p>
 					</div>
 				</div>
+			</div>
+			<div class="row"></div>
+			<br><br>
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
+					<small>Untuk mengikuti Sunnah Rasul – Mu dalam rangka
+							Membentuk Keluarga Sakinah Mawaddah Warahmah,
+							Maka izinkanlah kami menikahkannya</small>
+				</div>
+			</div>
 			</div>
 		</div>
 	</div>
 
-	<div id="fh5co-event" class="fh5co-bg" style="background-image:url(images/img_bg_3.jpg);">
+	<div id="fh5co-event" class="fh5co-bg" style="background-image:url(images/eventdetailsbackground.jpeg);">
 		<div class="overlay"></div>
 		<div class="container">
 			<div class="row">
 				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
 					<span>Our Special Events</span>
-					<h2>Wedding Events</h2>
+					<h2>Assalamualaikum</h2>
+					<br>
+					<p class="eventdetailsdesc">Dengan memohon Rahmat dan Rido ALLAH SWT
+							Kami bermaksud menyelenggarakan Akad & Resepsi Pernikahan kami,
+							Yang InsyaAllah akan dilaksanakan pada :</p>
 				</div>
 			</div>
 			<div class="row">
@@ -172,34 +177,37 @@
 						<div class="col-md-10 col-md-offset-1">
 							<div class="col-md-6 col-sm-6 text-center">
 								<div class="event-wrap animate-box">
-									<h3>Main Ceremony</h3>
+									<h3>Akad Nikah</h3>
 									<div class="event-col">
 										<i class="icon-clock"></i>
-										<span>4:00 PM</span>
-										<span>6:00 PM</span>
+										<span>09:00 AM</span>
+										<span>(WIB)</span>
 									</div>
 									<div class="event-col">
 										<i class="icon-calendar"></i>
-										<span>Monday 28</span>
-										<span>November, 2016</span>
+										<span>Senin 18</span>
+										<span>Maret, 2019</span>
 									</div>
-									<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+									<p>Bertempat di kediaman mempelai Perempuan, Dk. Sampung, RT. 16, RW. 03, Ds. Sidorejo, Kec. Sidorejo
+											Kab. Magetan – Jawa Timur</p>
 								</div>
 							</div>
 							<div class="col-md-6 col-sm-6 text-center">
 								<div class="event-wrap animate-box">
-									<h3>Wedding Party</h3>
+									<h3>Resepsi</h3>
 									<div class="event-col">
 										<i class="icon-clock"></i>
-										<span>7:00 PM</span>
-										<span>12:00 AM</span>
+										<span>10:00 AM</span>
+										<span>(WIB)</span>
 									</div>
 									<div class="event-col">
 										<i class="icon-calendar"></i>
-										<span>Monday 28</span>
-										<span>November, 2016</span>
+										<span>Senin 18</span>
+										<span>Maret, 2019</span>
 									</div>
-									<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+									<p>Bertempat di kediaman mempelai Perempuan, Dk. Sampung, RT. 16, RW. 03, Ds. Sidorejo, Kec. Sidorejo
+											Kab. Magetan – Jawa Timur</p>
+											
 								</div>
 							</div>
 						</div>
@@ -209,316 +217,30 @@
 		</div>
 	</div>
 
-	<div id="fh5co-couple-story">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
-					<span>We Love Each Other</span>
-					<h2>Our Story</h2>
-					<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-md-12 col-md-offset-0">
-					<ul class="timeline animate-box">
-						<li class="animate-box">
-							<div class="timeline-badge" style="background-image:url(images/couple-1.jpg);"></div>
-							<div class="timeline-panel">
-								<div class="timeline-heading">
-									<h3 class="timeline-title">First We Meet</h3>
-									<span class="date">December 25, 2015</span>
-								</div>
-								<div class="timeline-body">
-									<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-								</div>
-							</div>
-						</li>
-						<li class="timeline-inverted animate-box">
-							<div class="timeline-badge" style="background-image:url(images/couple-2.jpg);"></div>
-							<div class="timeline-panel">
-								<div class="timeline-heading">
-									<h3 class="timeline-title">First Date</h3>
-									<span class="date">December 28, 2015</span>
-								</div>
-								<div class="timeline-body">
-									<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-								</div>
-							</div>
-						</li>
-						<li class="animate-box">
-							<div class="timeline-badge" style="background-image:url(images/couple-3.jpg);"></div>
-							<div class="timeline-panel">
-								<div class="timeline-heading">
-									<h3 class="timeline-title">In A Relationship</h3>
-									<span class="date">January 1, 2016</span>
-								</div>
-								<div class="timeline-body">
-									<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-								</div>
-							</div>
-						</li>
-			    	</ul>
-				</div>
-			</div>
+	<div id="fh5co-couple" style="padding: 0;">
+		<div class="row" style="margin-right: 0 !important;">
+				<div id="mapid"></div>
 		</div>
 	</div>
 
-	<div id="fh5co-gallery" class="fh5co-section-gray">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
-					<span>Our Memories</span>
-					<h2>Wedding Gallery</h2>
-					<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-				</div>
-			</div>
-			<div class="row row-bottom-padded-md">
-				<div class="col-md-12">
-					<ul id="fh5co-gallery-list">
-						
-						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/gallery-1.jpg); "> 
-						<a href="images/gallery-1.jpg">
-							<div class="case-studies-summary">
-								<span>14 Photos</span>
-								<h2>Two Glas of Juice</h2>
-							</div>
-						</a>
-					</li>
-					<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/gallery-2.jpg); ">
-						<a href="#" class="color-2">
-							<div class="case-studies-summary">
-								<span>30 Photos</span>
-								<h2>Timer starts now!</h2>
-							</div>
-						</a>
-					</li>
 
-
-					<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/gallery-3.jpg); ">
-						<a href="#" class="color-3">
-							<div class="case-studies-summary">
-								<span>90 Photos</span>
-								<h2>Beautiful sunset</h2>
-							</div>
-						</a>
-					</li>
-					<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/gallery-4.jpg); ">
-						<a href="#" class="color-4">
-							<div class="case-studies-summary">
-								<span>12 Photos</span>
-								<h2>Company's Conference Room</h2>
-							</div>
-						</a>
-					</li>
-
-						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/gallery-5.jpg); ">
-							<a href="#" class="color-3">
-								<div class="case-studies-summary">
-									<span>50 Photos</span>
-									<h2>Useful baskets</h2>
-								</div>
-							</a>
-						</li>
-						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/gallery-6.jpg); ">
-							<a href="#" class="color-4">
-								<div class="case-studies-summary">
-									<span>45 Photos</span>
-									<h2>Skater man in the road</h2>
-								</div>
-							</a>
-						</li>
-
-						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/gallery-7.jpg); ">
-							<a href="#" class="color-4">
-								<div class="case-studies-summary">
-									<span>35 Photos</span>
-									<h2>Two Glas of Juice</h2>
-								</div>
-							</a>
-						</li>
-
-						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/gallery-8.jpg); "> 
-							<a href="#" class="color-5">
-								<div class="case-studies-summary">
-									<span>90 Photos</span>
-									<h2>Timer starts now!</h2>
-								</div>
-							</a>
-						</li>
-						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/gallery-9.jpg); ">
-							<a href="#" class="color-6">
-								<div class="case-studies-summary">
-									<span>56 Photos</span>
-									<h2>Beautiful sunset</h2>
-								</div>
-							</a>
-						</li>
-					</ul>		
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<div id="fh5co-counter" class="fh5co-bg fh5co-counter" style="background-image:url(images/img_bg_5.jpg);">
+	<div id="fh5co-counter" class="fh5co-bg fh5co-counter" style="background-image:url(images/closingsectionbackground.jpeg); padding: 123px 0;">
 		<div class="overlay"></div>
 		<div class="container">
-			<div class="row">
-				<div class="display-t">
-					<div class="display-tc">
-						<div class="col-md-3 col-sm-6 animate-box">
-							<div class="feature-center">
-								<span class="icon">
-									<i class="icon-users"></i>
-								</span>
-
-								<span class="counter js-counter" data-from="0" data-to="500" data-speed="5000" data-refresh-interval="50">1</span>
-								<span class="counter-label">Estimated Guest</span>
-
-							</div>
-						</div>
-						<div class="col-md-3 col-sm-6 animate-box">
-							<div class="feature-center">
-								<span class="icon">
-									<i class="icon-user"></i>
-								</span>
-
-								<span class="counter js-counter" data-from="0" data-to="1000" data-speed="5000" data-refresh-interval="50">1</span>
-								<span class="counter-label">We Catter</span>
-							</div>
-						</div>
-						<div class="col-md-3 col-sm-6 animate-box">
-							<div class="feature-center">
-								<span class="icon">
-									<i class="icon-calendar"></i>
-								</span>
-								<span class="counter js-counter" data-from="0" data-to="402" data-speed="5000" data-refresh-interval="50">1</span>
-								<span class="counter-label">Events Done</span>
-							</div>
-						</div>
-						<div class="col-md-3 col-sm-6 animate-box">
-							<div class="feature-center">
-								<span class="icon">
-									<i class="icon-clock"></i>
-								</span>
-
-								<span class="counter js-counter" data-from="0" data-to="2345" data-speed="5000" data-refresh-interval="50">1</span>
-								<span class="counter-label">Hours Spent</span>
-
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<div id="fh5co-testimonial">
-		<div class="container">
-			<div class="row">
-				<div class="row animate-box">
-					<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-						<span>Best Wishes</span>
-						<h2>Friends Wishes</h2>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-md-12 animate-box">
-						<div class="wrap-testimony">
-							<div class="owl-carousel-fullwidth">
-								<div class="item">
-									<div class="testimony-slide active text-center">
-										<figure>
-											<img src="images/couple-1.jpg" alt="user">
-										</figure>
-										<span>John Doe, via <a href="#" class="twitter">Twitter</a></span>
-										<blockquote>
-											<p>"Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics"</p>
-										</blockquote>
-									</div>
-								</div>
-								<div class="item">
-									<div class="testimony-slide active text-center">
-										<figure>
-											<img src="images/couple-2.jpg" alt="user">
-										</figure>
-										<span>John Doe, via <a href="#" class="twitter">Twitter</a></span>
-										<blockquote>
-											<p>"Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, at the coast of the Semantics, a large language ocean."</p>
-										</blockquote>
-									</div>
-								</div>
-								<div class="item">
-									<div class="testimony-slide active text-center">
-										<figure>
-											<img src="images/couple-3.jpg" alt="user">
-										</figure>
-										<span>John Doe, via <a href="#" class="twitter">Twitter</a></span>
-										<blockquote>
-											<p>"Far far away, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean."</p>
-										</blockquote>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<div id="fh5co-services" class="fh5co-section-gray">
-		<div class="container">
-			
 			<div class="row animate-box">
 				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-					<h2>We Offer Services</h2>
-					<p>Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident. Odit ab aliquam dolor eius.</p>
+					<h3 style="color: #FFFFFF;">Merupakan suatu kehormatan dan kebahagiaan bagi kami, 
+							Apabila Bapak/Ibu/Saudara/I berkenan hadir
+							Untuk memberikan Do’a restu kepada kami berdua.</h3>
+					<p style="color: #D8D8D8;">Atas kehadirannya dan Doa Restunya
+							Kami ucapkan terima kasih</p>
+							<br><br><br>
+							<p style="color: #D8D8D8;">Kami yang berbahagia</p>
+							<p style="color: #D8D8D8;">Kel. Bpk. Bingat – Ibu. Umi Kasanah</p>
+							<p style="color: #D8D8D8;">Kel. Bpk. Kairin – Ibu. Suparmi</p>
+					<h3 style="color: #FFFFFF;">Rohma &amp; Indarto</h3>
 				</div>
 			</div>
-
-			<div class="row">
-				<div class="col-md-6">
-					<div class="feature-left animate-box" data-animate-effect="fadeInLeft">
-						<span class="icon">
-							<i class="icon-calendar"></i>
-						</span>
-						<div class="feature-copy">
-							<h3>We Organized Events</h3>
-							<p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit. Eos cumque dicta adipisci architecto culpa amet.</p>
-						</div>
-					</div>
-
-					<div class="feature-left animate-box" data-animate-effect="fadeInLeft">
-						<span class="icon">
-							<i class="icon-image"></i>
-						</span>
-						<div class="feature-copy">
-							<h3>Photoshoot</h3>
-							<p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit. Eos cumque dicta adipisci architecto culpa amet.</p>
-						</div>
-					</div>
-
-					<div class="feature-left animate-box" data-animate-effect="fadeInLeft">
-						<span class="icon">
-							<i class="icon-video"></i>
-						</span>
-						<div class="feature-copy">
-							<h3>Video Editing</h3>
-							<p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit. Eos cumque dicta adipisci architecto culpa amet.</p>
-						</div>
-					</div>
-
-				</div>
-
-				<div class="col-md-6 animate-box">
-					<div class="fh5co-video fh5co-bg" style="background-image: url(images/img_bg_3.jpg); ">
-						<a href="https://vimeo.com/channels/staffpicks/93951774" class="popup-vimeo"><i class="icon-video2"></i></a>
-						<div class="overlay"></div>
-					</div>
-				</div>
-			</div>
-
-			
 		</div>
 	</div>
 
@@ -562,8 +284,8 @@
 			<div class="row copyright">
 				<div class="col-md-12 text-center">
 					<p>
-						<small class="block">&copy; 2016 Free HTML5. All Rights Reserved.</small> 
-						<small class="block">Designed by <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> Demo Images: <a href="http://unsplash.co/" target="_blank">Unsplash</a></small>
+						<small class="block">&copy; 2019 neurabot Labs. All Rights Reserved.</small> 
+						<small class="block"> <a href="http://freehtml5.co/" target="_blank">inspired</a> Images Assets: <a href="http://unsplash.co/" target="_blank">Unsplash</a></small>
 					</p>
 					<p>
 						<ul class="fh5co-social-icons">
@@ -607,6 +329,59 @@
 	<script src="js/simplyCountdown.js"></script>
 	<!-- Main -->
 	<script src="js/main.js"></script>
+	
+	<!-- Google Map -->
+	<script>
+		function onMapClick(e) {
+			alert("You clicked the map at " + e.latlng);
+		}
+	
+	
+	
+		var data = [{
+				container: 'mapid',
+				map: L.map('mapid').setView([-7.6630796, 111.2764396], 11),
+				markers: [
+	
+					{
+						coordinate: [-7.6630796, 111.2764396],
+						label: 'Sampang',
+						popup: 'Lokasi: Sampung, Sidorejo, Magetan Regency, East Java'
+					},
+	
+	
+				]
+			},
+	
+		];
+	
+		const accessToken =
+			'pk.eyJ1IjoicHV0ZXJha2FoZmkiLCJhIjoiY2pseXl1Y2doMHB3ZTNwb3Z2bXBxeTR0dyJ9.suh88s8rzHt3dBjwvtjW2w';
+	
+	
+	
+	
+		data.forEach(item => {
+	
+			if (item.markers !== undefined) {
+	
+				item.markers.forEach(element => {
+					marker = L.marker(element.coordinate).addTo(item.map);
+					marker.bindPopup(element.popup).openPopup();
+				});
+	
+			}
+	
+			item.map.on('click', onMapClick);
+	
+			L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=' + accessToken, {
+				attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
+				maxZoom: 18,
+				id: 'mapbox.streets',
+				accessToken: accessToken
+			}).addTo(item.map);
+		});
+	</script>
 
 	<script>
     var d = new Date(new Date().getTime() + 200 * 120 * 120 * 2000);

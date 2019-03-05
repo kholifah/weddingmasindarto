@@ -1840,4 +1840,21 @@ form label {
   opacity: 0;
 }
 
+/*
+additional styles
+*/
+.ayat {
+  color: #FFF;
+  font-size: 22px;
+}
+.tarjim {
+  color: #B0B0B0;
+}
+.eventdetailsdesc {
+  color: #B0B0B0 !important;
+}
+#mapid {
+  height: 300px;
+}
+
 /*# sourceMappingURL=style.css.map */
